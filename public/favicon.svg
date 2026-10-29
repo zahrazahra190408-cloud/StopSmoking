@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <radialGradient id="body" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="100%" stop-color="#D97706" />
+    </radialGradient>
+    <radialGradient id="blush" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDA4AF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FDA4AF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background with Safe Padding for Maskable -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+
+  <!-- White Ring Frame -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-dasharray="16 12" opacity="0.3" />
+
+  <!-- Pou-style Mascot Body -->
+  <!-- Cute potato / droplet shape -->
+  <path d="M 256 120 C 330 120 370 170 380 250 C 390 320 350 380 290 395 C 275 398 237 398 222 395 C 162 380 122 320 132 250 C 142 170 182 120 256 120 Z" fill="url(#body)" stroke="#78350F" stroke-width="12" stroke-linejoin="round" />
+
+  <!-- Little Arms/Hands -->
+  <ellipse cx="140" cy="265" rx="18" ry="28" transform="rotate(-25 140 265)" fill="#F59E0B" stroke="#78350F" stroke-width="10" />
+  <ellipse cx="372" cy="255" rx="18" ry="28" transform="rotate(35 372 255)" fill="#F59E0B" stroke="#78350F" stroke-width="10" />
+
+  <!-- Big Sparkling Eyes -->
+  <!-- Left Eye -->
+  <ellipse cx="215" cy="225" rx="22" ry="28" fill="#1E293B" />
+  <circle cx="210" cy="215" r="9" fill="#FFFFFF" />
+  <circle cx="223" cy="235" r="4" fill="#FFFFFF" />
+
+  <!-- Right Eye -->
+  <ellipse cx="297" cy="225" rx="22" ry="28" fill="#1E293B" />
+  <circle cx="292" cy="215" r="9" fill="#FFFFFF" />
+  <circle cx="305" cy="235" r="4" fill="#FFFFFF" />
+
+  <!-- Cheerful Smile -->
+  <path d="M 238 268 Q 256 286 274 268" fill="none" stroke="#78350F" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Cheeks Blush -->
+  <circle cx="178" cy="252" r="18" fill="url(#blush)" />
+  <circle cx="334" cy="252" r="18" fill="url(#blush)" />
+
+  <!-- Sprout of Clean Air on Top of Head -->
+  <path d="M 256 125 Q 240 85 220 90 Q 235 115 256 125 Z" fill="#34D399" stroke="#065F46" stroke-width="6" />
+  <path d="M 256 125 Q 275 80 295 88 Q 275 115 256 125 Z" fill="#10B981" stroke="#065F46" stroke-width="6" />
+
+  <!-- Heart Emote Floating -->
+  <path d="M 370 140 C 370 130 360 120 348 120 C 338 120 330 128 325 136 C 320 128 312 120 302 120 C 290 120 280 130 280 140 C 280 160 325 185 325 185 C 325 185 370 160 370 140 Z" fill="#EC4899" stroke="#9D174D" stroke-width="4" transform="scale(0.7) translate(140, 40)" />
+</svg>

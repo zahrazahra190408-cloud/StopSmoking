@@ -1,0 +1,6 @@
+{
+  "name": "NikoPuff - Pelacak Berhenti Merokok & Pet Virtual",
+  "description": "Aplikasi pendamping berhenti merokok interaktif bergaya Pou dengan pemantauan pasangan jarak jauh oleh Zahra, kustomisasi karakter, pengingat harian, grafik progres, sistem reward, dan PWA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
